@@ -1,0 +1,25 @@
+---
+title: "Homework 2"
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data <- read_tsv("../data/example_dataset_2.tsv") %>% 
+  print()
+```
+
+```{r}
+data <- data %>%
+  mutate(mean_ratio = mean_yfp / mean_rfp) %>%
+  print()
+```
+
+```{r}
+data <- data %>% 
+  mutate(mean_ratio = round )
+```
+
