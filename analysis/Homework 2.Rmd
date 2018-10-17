@@ -17,9 +17,3 @@ data <- data %>%
   mutate(mean_ratio = mean_yfp / mean_rfp) %>%
   print()
 ```
-
-```{r}
-data <- data %>% 
-  mutate(mean_ratio = round )
-```
-
