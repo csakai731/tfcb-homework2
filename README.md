@@ -1,4 +1,4 @@
 ## TFCB Homework 2
-Author: Catalina Sakai
+Catalina Sakai
 
-This is README for Homework 2.
+This is the README for Homework 2.
